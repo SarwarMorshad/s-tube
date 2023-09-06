@@ -1,4 +1,11 @@
 <h2>This is a sample youtube style landing page</h2>
+<h3>This page is designed by</h3>
+<ul>
+<li>HTML,</li>
+<li>Tailwind CSS,</li>
+<li>Daisy UI components,</li>
+<li>JavaScript</li>
+</ul>
 <h3>Features:</h3>
 <ul>
 <li>Category buttons are dynamic which are generated from API</li>
