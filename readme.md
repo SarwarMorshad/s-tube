@@ -1,1 +1,1 @@
-![Image](/images/bg.jpg)
+![Image](/images/website-view.png)
