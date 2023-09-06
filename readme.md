@@ -8,5 +8,6 @@
 <li>Video Cards are generated dynamically from API</li>
 <li>Every card has has a verified icon those who are verified</li>
 </ul>
+<h2>Landing page view</h2>
 
 ![Image](/images/website-view.png)
