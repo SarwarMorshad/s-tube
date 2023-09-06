@@ -3,4 +3,5 @@
 <ul>
 <li>Category buttons are dynamic which are generated from API</li>
 </ul>
+
 ![Image](/images/website-view.png)
