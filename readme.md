@@ -8,6 +8,7 @@
 </ul>
 <h3>Features:</h3>
 <ul>
+<li>This page is responsive in different devices </li>
 <li>Category buttons are dynamic which are generated from API</li>
 <li>All category data are generated dynamically from API</li>
 <li>If there is no data in any category show regarded message</li>
