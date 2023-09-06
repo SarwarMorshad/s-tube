@@ -36,8 +36,9 @@
     </header>
     <main class="container mx-auto">
       <!-- Blog Section  -->
-      <section class="bg-[url('/images/bg.jpg')] rounded-xl border-none">
-        <div class="card w-auto glass">
+      <section class="bg-[url('/images/bg.jpg')] rounded-xl border-none mb-14">
+        <!-- Blog 1 -->
+        <div class="card w-auto glass mb-10">
           <!-- <figure><img src="/images/bg.jpg" alt="car!" /></figure> -->
           <div class="card-body text-justify">
             <p class="font-extrabold text-3xl pb-5">Discuss the scope of var, let, and const</p>
@@ -105,14 +106,43 @@
                     </code>
                 </pre>
               </div>
+              <p>
+                <span class="font-bold pt-2">'const'</span>
+                <p>
+                    <span class="font-bold">Block Scope:</span> Variables declared with const are also block-scoped, just like let. <br>
+                </p>
+                <p>
+                    <span class="font-bold">Hoisting:</span> const variables are hoisted but not initialized, so you can't access them before declaration. <br>
+                </p>
+                <p>
+                    <span class="font-bold">Immutability:</span> Variables declared with const cannot be reassigned once they are assigned a value. However, if they are assigned an object or array, you can still modify the properties or elements of that object or array. <br>
+                </p>
+                <p>
+                    <span class="font-bold pt-2">Example:</span>
+                </p>
+              </p>
+              <div class="mockup-code mb-2">
+                <pre >
+                    <code>
+                        function exampleFunction() {
+                            const x = 10;
+                            if (true) {
+                              const y = 20;
+                              console.log(x); // 10
+                            }
+                            console.log(y); // ReferenceError: y is not defined
+                          }                                                    
+                    </code>
+                </pre>
+              </div>
+              <p>
+                In modern JavaScript development, it's generally recommended to use let and const over var because they provide more predictable scoping behavior and help prevent bugs related to variable hoisting and unintended reassignments. const is particularly useful when you want to declare values that should not be changed after their initial assignment.
+              </p>
             </p>
-
-            <div class="card-actions justify-start">
-              <button class="btn btn-primary">Learn now!</button>
-            </div>
           </div>
         </div>
       </section>
+      <script src="scripts/blog.js"></script>
     </main>
   </body>
 </html>
