@@ -35,4 +35,9 @@ const loadCategory = async (categoryId) => {
   loadCards(cardInfo);
 };
 
+const blogHandle = () => {
+  window.location.href = "blog.html";
+};
+
 handleCategory();
+loadCategory("1000");
